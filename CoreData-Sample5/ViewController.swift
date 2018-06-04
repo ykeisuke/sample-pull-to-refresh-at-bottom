@@ -29,11 +29,6 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    @objc private func refreshWeatherData(_ sender: Any) {
-        // Fetch Weather Data
-        debugPrint("Refresh!!")
-    }
-
     // Scroll view in table view
     var isLoadingMore = false
 
